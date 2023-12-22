@@ -161,6 +161,9 @@ sudo service apache2 restart
 cd /var/www/project_folder_name
 pm2 start npm --name therajeshkumar -- run start -- -p 3000
 ```
+```sh
+   pm2 start npm --name "custom_name" -- start
+```
 - Save PM2 Process
 ```sh
 pm2 save
@@ -168,6 +171,9 @@ pm2 save
 - Check PM2 Status
 ```sh
 pm2 status
+```
+```sh
+   pm2 restart "custom_name"
 ```
 - Now you can make some changes in your project local development VS Code and Pull it on Remote Server
 - Go to Your Project Directory
