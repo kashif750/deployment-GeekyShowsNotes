@@ -19,8 +19,10 @@ ufw status verbose
 ```
 - Obtain an SSL certificate
 ```sh
-certbot --apache
+certbot --apache    ( to enter this command & start the process of ssl addition )
 ```
+email: kashifniaz750@gmail.com
+
 - Check Status of Certbot
 ```sh
 systemctl status certbot.timer
