@@ -312,6 +312,11 @@ Example:- cd /var/www/miniblog
 ```sh
 git pull
 ```
+- if case of error: permission denined of file ( error :: err: bash: ./.scripts/deploy.sh: Permission denied )
+- run this command at VPS-server
+```sh
+chmod +x ./.scripts/deploy.sh
+```
 - Your Deployment should become automate.
 - On Local Machine make some changes in Your Project then Commit and Push to Github Repo It will automatically deployed on Live Server
 - You can track your action from Github Actions Tab
